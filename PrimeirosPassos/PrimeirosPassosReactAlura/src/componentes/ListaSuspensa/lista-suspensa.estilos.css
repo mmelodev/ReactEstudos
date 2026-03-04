@@ -1,0 +1,23 @@
+.lista-suspensa{
+	/* Estilos de Caixa */
+	width: 100%;
+	padding: 10px 40px 10px 15px;
+	font-size: 16px;
+	border: 2px solid #ddd;
+	border-radius: 8px;
+	background-color: #4A4949;
+	cursor: pointer;
+	color: #ddd;
+  
+	/* Adicionando uma seta personalizada */
+	background-repeat: no-repeat;
+	background-position: right 15px center;
+	background-size: 15px;
+	transition: border-color 0.3s ease;
+}
+
+/* Efeito de Foco */
+.lista-suspensa:focus {
+	outline: none;
+	border-color: #22ac5c;
+}

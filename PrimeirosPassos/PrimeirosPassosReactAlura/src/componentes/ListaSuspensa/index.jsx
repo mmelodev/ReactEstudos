@@ -1,11 +1,5 @@
-import { CampoDeEntrada } from "../CampoDeEntrada";
-import { CampoDeFormulario } from "../CampoDeFormulario";
+import './lista-suspensa.estilos.css'
 
-<CampoDeFormulario>
-	<Label htmlFor="dataEvento">Tema do Evento</Label>
-	<CampoDeEntrada 
-		type="date" 
-		name="dataEvento" 
-		id="dataEvento" 
-	/>
-</CampoDeFormulario>
+export function ListaSuspensa (props) {
+	return <select {...props} className="lista-suspensa"/>
+}
